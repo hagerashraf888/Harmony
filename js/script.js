@@ -27,7 +27,6 @@ $(window).scroll(function() {
 });
 
 
-$(document).ready(function(){
 
 
 /* rooms */
@@ -67,6 +66,7 @@ $('.rooms').slick({
   
 });
 
+
 /* products */
 $('.products').slick({
   slidesToShow: 5,
@@ -104,4 +104,3 @@ $('.products').slick({
   
 });
 
-})

@@ -595,14 +595,22 @@ h1{
 }
 .rooms img{
     margin: auto;
+    text-decoration: none;
 }
 .room{
     text-decoration: none;
     color: #C1A673;
 }
+.room img{
+    text-decoration: none;
+}
+.room:hover{
+    text-decoration: none;
+}
 .products{
     width: 80%;
     margin: auto;
+    text-decoration: none;
 }
 .products img{
     margin: auto;

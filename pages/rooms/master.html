@@ -7,8 +7,6 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/slick-theme.css">
         <link rel="stylesheet" href="../../css/slick.css">
-        <link rel="stylesheet" href="../../css/bootstrap.css">
-        <link rel="stylesheet" href="../../css/bootstrap.min.css">
         <link rel="stylesheet" href="../../css/rooms.css">
         <link rel="icon" href="../../images/harmony-logo.jpg">
         <link rel="stylesheet" href="../../fonts/fonts/css/all.css"> 
@@ -34,41 +32,13 @@
                 <img src="../../images/harmony-logo.jpg" id="logo">
             </a>
             </div>
-            <div class="bar">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                          <a class="nav-link" href="../home.html"> HOME <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="../about.html"> ABOUT </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../service.html"> SERVICE </a>
-                          </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            PROJECTS
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../projects.html"> PROJECTS </a>
-                            <div class="dropdown-divider"></div>
-
-                            <a class="dropdown-item" href="#"> ROOMS </a>
-                            <a class="dropdown-item" href="#"> PRODUCTS </a>
-                          </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../contacts.html"> CONTACTS </a>
-                          </li>
-                        
-                      </ul>
-                      
-                    </div>
-                  </nav>
-                </div>
+            <nav>
+              <a href="../home.html"> HOME </a>
+              <a href="../about.html"> ABOUT </a>
+              <a href="../service.html"> SERVICE </a>
+              <a href="../projects.html" id="active"> PROJECTS </a>
+              <a href="../contacts.html"> CONTACTS </a>
+          </nav>
         </div>
     </header>
 
@@ -184,49 +154,49 @@
     <hr data-aos="fade-right">
     <div class="products" data-aos="fade-left">
         <span>
-          <a href="../products/master-bed.html">
+          <a href="../products/master-bed.html" class="room">
             <img src="../../images/svg/master-bed.svg" width="200vw" height="200vw">
             <h2> Master-Bed </h2>
           </a>
         </span>
         <span>
-          <a href="../products/single-bed.html">
+          <a href="../products/single-bed.html" class="room">
             <img src="../../images/svg/single-bed.svg" width="200vw" height="200vw">
             <h2> Single-Bed </h2>
           </a>
         </span>
         <span>
-          <a href="../products/closet.html">
+          <a href="../products/closet.html" class="room">
             <img src="../../images/svg/closet.svg" width="200vw" height="200vw">
             <h2> Closet </h2>
           </a>
         </span>
         <span>
-          <a href="../products/mirror.html">
+          <a href="../products/mirror.html" class="room">
             <img src="../../images/svg/mirror.svg" width="200vw" height="200vw">
             <h2> Mirror </h2>
           </a>
         </span>
         <span>
-          <a href="../products/sofa.html">
+          <a href="../products/sofa.html" class="room">
             <img src="../../images/svg/sofa.svg" width="200vw" height="200vw">
             <h2> Sofa </h2>
           </a>
         </span>
         <span>
-          <a href="../products/chair.html">
+          <a href="../products/chair.html" class="room">
             <img src="../../images/svg/chair.svg" width="200vw" height="200vw">
             <h2> Chair </h2>
           </a>
         </span>
         <span>
-          <a href="../products/table.html">
+          <a href="../products/table.html" class="room">
             <img src="../../images/svg/table.svg" width="200vw" height="200vw">
             <h2> Table </h2>
           </a>
         </span>
         <span>
-          <a href="../products/cupboard.html">
+          <a href="../products/cupboard.html" class="room">
             <img src="../../images/svg/cupboard.svg" width="200vw" height="200vw">
             <h2> Cupboard </h2>
           </a>
@@ -273,8 +243,6 @@
     <script src="../../js/jquery-3.5.1.js"></script>
     <script src="../../js/slick.js"></script>
     <script src="../../js/slick.min.js"></script>
-    <script src="../../js/bootstrap.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/rooms.js"></script>
 
     </body>

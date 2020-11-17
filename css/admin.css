@@ -1,0 +1,113 @@
+body{
+  margin: 0px auto;
+  font-family: Amiri;
+}
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  src: url("../fonts/Amiri/Amiri-Regular.ttf");
+  font-family: Amiri;
+}
+  
+/* sidebar */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 18vw;
+  background-color: #0F1628;
+  position: fixed;
+  height: 100%;
+}
+.logo{
+  width: 60%;
+  margin: auto;
+}
+.logo img{
+  width: 100%;
+  border-bottom: #C1A673 1px solid;
+  border-radius: 1vw;
+}
+.sidebar a {
+  margin-left: 3.5vw;
+  display: block;
+  color: #C1A673;
+  padding: .65vw;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+.pages{
+  margin-left: 2vw;
+  display: none;
+}
+
+/* content */
+div.content {
+  margin-left: 18vw;
+  /*height: 1000px;*/
+}
+  
+/* topnav */
+.topnav {
+  background-color: #0F1628;
+  color: #C1A673;
+  height: 5vw;
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.topnav > div{
+  margin: auto;
+}
+.search{
+  width: 50%;
+}
+#search{
+  width: 10vw;
+}
+.btn{
+  background-color: #C1A673;
+  color: #0F1628;
+  border: 1px solid #0F1628;
+  border-radius: 5px;
+  height: 2vw;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #0F1628;
+  color: #C1A673;
+  border: #C1A673 1px solid;
+}
+.dropbtn {
+  background-color: #0F1628;
+  color: #C1A673;
+  font-size: 1.5vw;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(15, 22, 40, .7);
+  width: 100%;
+  box-shadow: 0 2vw 4vw 0 rgba(15, 22, 40, .7);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #C1A673;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #0F1628
+}
+.show {
+  display:block;
+} 
