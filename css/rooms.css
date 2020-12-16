@@ -121,6 +121,21 @@ hr{
     border: #0F1628 solid 2px;
     width: 30%;
 }
+
+/* cart */
+.cart a{
+    text-decoration: none;
+    color: #C1A673;
+    font-size: 5vw;
+    position: fixed;
+    top: 6vw;
+    right: 1vw;
+    z-index: 8;
+}
+.cart a:hover{
+    color: #0F1628;
+}
+
 /* rooms */
 .rooms{
     width: 80%;
@@ -166,10 +181,11 @@ h2:hover{
 .all > div{
     width: 20vw;
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
 }
 .card{
     width: 18vw;
+    height: 50vw;
     box-shadow: 0 2vw 4vw 0 rgba(15, 22, 40, .7);
     margin: auto;
     text-align: center;
@@ -184,7 +200,7 @@ h4{
 }
 .price {
     color: #0F1628;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .card button {
     border: none;
@@ -203,7 +219,7 @@ h4{
 
 /* footer */
 footer{
-    height: 22vw;
+    height: 25vw;
     color: #C1A673;
     background-color: #0F1628;
     display: flex;

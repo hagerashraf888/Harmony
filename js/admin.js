@@ -1,9 +1,21 @@
 $(document).ready(function(){
 
     // slideToggle
-    $(".open").click(function(){
-        $(".pages").slideToggle(1000)
+    $(".open-r").click(function(){
+        $(".rooms").slideToggle(1000)
     })
+
+    $(".open-p").click(function(){
+      $(".products").slideToggle(1000)
+    })
+
+  $(".open-ro").click(function(){
+    $(".room").slideToggle(1000)
+  })
+
+  $(".open-pro").click(function(){
+    $(".product").slideToggle(1000)
+  })
 })
 
 /* When the user clicks on the button,
